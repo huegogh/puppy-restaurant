@@ -10,4 +10,7 @@ Your Project must be using GitHub and you need to make sure each person has thei
 This is a group project, so you will submit a 1 page document talking about your experience with your group and an evaluation on each person in your group.
 You will also make sure you have at least 90% accessibility on your site.
 
+
 Test edit- Adrian S.
+this is coming from feature-navbar via hugo branch
+
