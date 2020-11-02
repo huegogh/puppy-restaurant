@@ -34,3 +34,15 @@ p {
     font-family: montauk
     font-weight: 100;
 }
+
+/* Photos Page */
+.photosTitle {
+    color: #5F002B;
+    font-size: 38px;
+    font-family: 'Fugaz One', sans-serif;
+}
+
+.card {
+    border-color: #FFFFFF;
+    border-width: 10px;
+}
