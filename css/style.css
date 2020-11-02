@@ -1,0 +1,48 @@
+
+body {
+    background-image: url("/images/bgtexture.jpg");
+}
+
+@font-face {
+    font-family: 'montauk';
+    src: url(fonts/montauk.ttf);
+    font-style: sans-serif;
+    font-weight: 100;
+}
+
+
+.hero-image {
+    background-image: url("/images/homeHero.jpg");
+    max-height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.muzzlesTitle {
+    color: #5F002B;
+    font-size: 38px;
+    font-family: 'Fugaz One', sans-serif;
+}
+
+p {
+    color: #5F002B;
+    font-size: 16px;
+    font-family: montauk
+    font-weight: 100;
+}
+
+/* Photos Page */
+.photosTitle {
+    color: #5F002B;
+    font-size: 38px;
+    font-family: 'Fugaz One', sans-serif;
+}
+
+.card {
+    border-color: #FFFFFF;
+    border-width: 10px;
+}
