@@ -1,48 +1,34 @@
+@font-face {
+    font-family: Montauk;
+    src: url("../Fonts/Montauk/Montauk-Regular.otf") format("otf");
+}
 
 body {
-    background-image: url("/images/bgtexture.jpg");
-}
-
-@font-face {
-    font-family: 'montauk';
-    src: url(fonts/montauk.ttf);
-    font-style: sans-serif;
-    font-weight: 100;
-}
-
-
-.hero-image {
-    background-image: url("/images/homeHero.jpg");
-    max-height: 100%;
-    width: 100%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.muzzlesTitle {
+    background-image: url("../Images/bgtexture.jpg");
     color: #5F002B;
-    font-size: 38px;
-    font-family: 'Fugaz One', sans-serif;
+}
+
+.card,
+.card-img-top {
+    border-radius: 0% !important;
 }
 
 p {
-    color: #5F002B;
-    font-size: 16px;
-    font-family: montauk;
-    font-weight: 100;
+    font-size: 14px;
+    font-family: Montauk;
 }
 
-/* Photos Page */
-.photosTitle {
-    color: #5F002B;
-    font-size: 38px;
-    font-family: 'Fugaz One', sans-serif;
+h2,
+h3,
+h5 {
+    font-family: 'Fugaz One', cursive;
 }
 
-.card {
-    border-color: #FFFFFF;
-    border-width: 10px;
+h2 {
+    font-size: 50px;
+}
+
+h3,
+h5 {
+    font-size: 30px;
 }
