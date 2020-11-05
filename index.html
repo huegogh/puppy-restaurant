@@ -11,7 +11,7 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
   <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
@@ -24,6 +24,42 @@
 
 
   <!-- Header Will Go Here -->
+    <!-- OPT 1 -->
+    <div class="container bg-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand">
+          <img src="./Images/MuzzlesLogo.png" class="d-inline-block align-top" alt="Muzzles Logo" width="250px"
+            height="auto" />
+        </a>
+  
+  
+        <!-- NAVBAR HAMBURGER -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMuzzles"
+          aria-controls="navbarMuzzles" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- NAVBAR LINKS -->
+  
+        <div class="collapse navbar-collapse justify-content-end" id="navbarMuzzles">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
 
 
   <!-- Hero-Image Here -->
@@ -38,10 +74,10 @@
   <!-- Muzzles Sandwiches and Grill -->
   <div class="container-fluid py-5">
     <div class="row d-flex justify-content-center">
-      <div class="col-4">
+      <div class="col-10 col-xl-4 order-1 order-lg-0 p-0 mr-xl-3">
         <img src="./images/homeSingle.jpg" width=100%>
       </div>
-      <div class="col-6 bg-white">
+      <div class="col-10 col-xl-6 my-3 my-lg-0 bg-white order-0 order-lg-1">
         <div class="row">
           <div class="col-12 p-4">
             <h1 class="muzzlesTitle">Muzzles Sandwiches & Grill</h1>
@@ -60,6 +96,21 @@
       </div>
     </div>
   </div> 
+
+   <!-- FOOTER -->
+
+   <div class="container footerText pb-4 footerPad">
+    <div class="row justify-content-between">
+      <div class="col-6">
+        1357 Mutt Street, Rottweiler CA. 12345<br>Phone: 123-456-7890
+
+      </div>
+      <div class="col-6 rightJustify">
+        <img src="./Images/CompanyLogo.png" width="100px"> <br>
+        Copyright © Muzzles Restaurant
+      </div>
+    </div>
+  </div>
 
 
 
