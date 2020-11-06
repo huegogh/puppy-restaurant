@@ -2,30 +2,15 @@
 
 @font-face {
     font-family: "Montauk";
-    src: url("../fonts/Montauk-Regular/Montauk-Light.otf");
-}
-
-.montauk {
-    font-family: "Montauk";
+    src: url("../Fonts/Montauk/Montauk-Light.otf");
 }
 
 body {
-    background-image: url("../images/bgtexture.jpg");
+    background-image: url("../Images/bgtexture.jpg");
     background-repeat: repeat;
     background-size: 600px 400px;
     color: #5F002B;
     background-color: #F2E9D9;
-    /* font-family: "Montauk"; */
-}
-
-.bg-header {
-    /* background-color: transparent; */
-    font-family: 'Fugaz One', cursive;
-}
-
-.nav-links {
-    color: #5F002B;
-    size: 20px;
 }
 
 a {
@@ -61,21 +46,6 @@ a:hover {
     background: no-repeat center center;
     background-size: 100% 100%
 }
-
-/* .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203);
-  }  */
-
-/* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px
-} */
 
 h1 {
     font-family: 'Fugaz One', cursive;
@@ -169,12 +139,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 30px;
-    color: #5F002B;
-}
 
 hr {
     border-color: #980051;
@@ -185,7 +149,6 @@ hr {
 
 .price {
     line-height: 30px;
-    color: #5F002B;
 }
 
 .menuCard {
@@ -207,10 +170,9 @@ hr {
 }
 
 
-.card-body {
+.menu-card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    /* min-height: 760px; */
     padding: 1.25rem;
     padding: 23px 33px;
 }
@@ -250,36 +212,30 @@ hr {
     border-bottom-left-radius: 0px
 }
 
-
-/* can delete font-face below */
-@font-face {
-    font-family: Montauk;
-    src: url("../Fonts/Montauk/Montauk-Regular.otf") format("otf");
-}
-/* can delete body */
-body {
-    background-image: url("../Images/bgtexture.jpg");
-    color: #5F002B;
-}
-
 .card,
 .card-img-top {
     border-radius: 0% !important;
 }
 
 p {
-    font-size: 14px;
-    font-family: Montauk;
+    font-size: 20px;
+    font-family: "Montauk";
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
 }
 
+h1,
 h2,
 h3,
-h5 {
+h5,
+.bg-header {
     font-family: 'Fugaz One', cursive;
 }
 
-h2 {
+#story {
     font-size: 50px;
+    text-align: left;
 }
 
 h3,
@@ -287,21 +243,8 @@ h5 {
     font-size: 30px;
 }
 
-/* can delete body below */
-body {
-    background-image: url("/images/bgtexture.jpg");
-}
-/* can delete font-face below */
-@font-face {
-    font-family: 'montauk';
-    src: url(fonts/montauk.ttf);
-    font-style: sans-serif;
-    font-weight: 100;
-}
-
-
 .hero-image {
-    background-image: url("/images/homeHero.jpg");
+    background-image: url("../Images/homeHero.jpg");
     max-height: 100%;
     width: 100%;
 
@@ -311,27 +254,7 @@ body {
     position: relative;
 }
 
-.muzzlesTitle {
-    color: #5F002B;
-    font-size: 38px;
-    font-family: 'Fugaz One', sans-serif;
-}
-
-/* p {
-    color: #5F002B;
-    font-size: 16px;
-    font-family: montauk
-    font-weight: 100;
-} */
-
-/* Photos Page */
-.photosTitle {
-    color: #5F002B;
-    font-size: 38px;
-    font-family: 'Fugaz One', sans-serif;
-}
-
-.card {
+.photo-card {
     border-color: #FFFFFF;
     border-width: 10px;
 }
