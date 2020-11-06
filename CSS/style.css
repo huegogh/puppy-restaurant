@@ -51,6 +51,7 @@ h1 {
     font-family: 'Fugaz One', cursive;
     text-align: center;
     color: #5F002B;
+    font-size: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,6 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width:768px) {
     .container, .container-md, .container-sm {
         max-width: 720px
+    }
+    h1 {
+        font-size: 50px;
     }
 }
 
@@ -183,7 +187,7 @@ hr {
 }
 
 .footerPad{
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 .rightJustify{
