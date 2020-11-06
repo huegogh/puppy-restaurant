@@ -251,12 +251,12 @@ hr {
 }
 
 
-
+/* can delete font-face below */
 @font-face {
     font-family: Montauk;
     src: url("../Fonts/Montauk/Montauk-Regular.otf") format("otf");
 }
-
+/* can delete body */
 body {
     background-image: url("../Images/bgtexture.jpg");
     color: #5F002B;
@@ -287,11 +287,11 @@ h5 {
     font-size: 30px;
 }
 
-
+/* can delete body below */
 body {
     background-image: url("/images/bgtexture.jpg");
 }
-
+/* can delete font-face below */
 @font-face {
     font-family: 'montauk';
     src: url(fonts/montauk.ttf);
