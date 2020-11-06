@@ -262,3 +262,8 @@ h5 {
 .muzzlesLogo{
     max-width: 250px;
 }
+
+.height100 {
+    height: 100%;
+    object-fit: cover;
+}
